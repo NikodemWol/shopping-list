@@ -1,0 +1,105 @@
+.tablicaWtablicy{
+    width: 100%;
+    padding: 0%;
+    justify-content: flex-start;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h5{
+    color: black;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: solid wheat 1px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.x{
+    justify-content: center;
+    display: flex;
+    color: wheat;
+    background-color: rgb(204, 4, 34);
+    border: rgb(204, 4, 34) solid 1px;
+    margin: 10px;
+}
+input{
+    border: solid 1px wheat;
+}
+.przycisk, .tekst1, .filter{
+    margin: 10px;
+}
+.tekst1, .filter{
+    border-radius: 5px;
+    color: black
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 70%;
+    position: relative;
+    color: black;
+    border: 1px solid wheat ;
+    border-radius: 5px;
+    margin: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+button{
+    background-color: rgb(6, 36, 54);
+    color: wheat;
+    border-radius: 10px;
+    border: 1px solid rgb(6, 36, 54);
+}
+div, h1, ul, form {
+    width: 50%; /* lub dowolna inna wartość szerokości */
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#glownatablica{
+
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column-reverse;
+    list-style-type: none;
+    max-width: 70%;
+}
+
+.pojawsie{
+    border: 2px solid wheat;
+}
+body{
+    background-color: rgb(45, 132, 194);
+    color: wheat;
+    .protest-riot-regular {
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+}
+
+.tytul{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.clear{
+    color: wheat;
+    background-color: rgb(92, 8, 6);
+    height: 30px;
+    margin: auto;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
