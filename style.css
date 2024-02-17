@@ -1,10 +1,14 @@
+
+.zniknij{
+    visibility: hidden;
+}
 .tablicaWtablicy{
     width: 100%;
     padding: 0%;
     justify-content: flex-start;
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 h5{
     color: black;
@@ -28,10 +32,10 @@ h5{
 input{
     border: solid 1px wheat;
 }
-.przycisk, .tekst1, .filter{
+.przycisk, .tekst1, #filter{
     margin: 10px;
 }
-.tekst1, .filter{
+.tekst1, #filter{
     border-radius: 5px;
     color: black
 }
@@ -54,7 +58,15 @@ button{
     border-radius: 10px;
     border: 1px solid rgb(6, 36, 54);
 }
-div, h1, ul, form {
+div{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(8, 57, 135);
+    display: flex;
+    margin-left: 10;
+}
+
+h1, ul, form {
     width: 50%; /* lub dowolna inna wartość szerokości */
     margin: 20px;
     margin-left: auto;
@@ -92,8 +104,9 @@ body{
     font-family: "Protest Riot", sans-serif;
     font-weight: 400;
     font-style: normal;
+    width: 100%;
 }
-.clear{
+#clear{
     color: wheat;
     background-color: rgb(92, 8, 6);
     height: 30px;
