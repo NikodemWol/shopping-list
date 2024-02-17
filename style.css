@@ -86,6 +86,10 @@ h1, ul, form {
     max-width: 70%;
 }
 
+#dodajProdukt{
+    width: 20%;
+}
+
 .pojawsie{
     border: 2px solid wheat;
 }
@@ -98,6 +102,12 @@ body{
         font-style: normal;
       }
       
+}
+form{
+    width: 80%;
+}
+#filter, #produkt{
+    width: 70%;
 }
 
 .tytul{
